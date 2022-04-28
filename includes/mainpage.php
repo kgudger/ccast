@@ -5,7 +5,7 @@
  *
  * @author Keith Gudger
  * @copyright  (c) 2022, Keith Gudger, all rights reserved
- * @license    http://opensource.org/licenses/BSD-2-Clause
+ * @license    MIT
  * @version    Release: 1.0
  * @package    Volunteer Now!
  *

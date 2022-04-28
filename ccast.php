@@ -4,8 +4,7 @@
 * Description:  Call CableCast APIs
 * Author:      Keith Gudger
 * Author URI:  http://www.github.com/kgudger
-* License:     GPL2
-* License URI: https://www.gnu.org/licenses/gpl-2.0.html
+* License:     MIT
 *  */
 
 defined( 'ABSPATH' ) or die( 'Ah ah ah, you didn\'t say the magic word' );
@@ -17,7 +16,7 @@ function CCast_setup_menu(){
         add_options_page( 'CCast Setup Page', 'CCast', 'manage_options', 'CCast-plugin', 'CCast_options_page' );
 }
 
-function register_CCast_settings () { // register the API Key
+function register_CCast_settings () { // register the API Key and URL
 	register_setting ('CCastPlugin', 'CCast_API_Key_settings');
 	register_setting ('CCastPlugin', 'CCast_URL_settings');
 	add_settings_section(
